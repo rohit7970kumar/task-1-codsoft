@@ -1,0 +1,548 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rohit Fitness</title>
+    <style>
+        body {
+            background-image: url(https://wallpaperaccess.com/full/1087594.jpg);
+            /* height: 50px;
+            margin-bottom: 200px; */
+            background-size: cover;
+            background-repeat: no-repeat;
+            height: 100vh;
+        }
+
+        .top1 img {
+            width: 110px;
+            height: 70px;
+            margin-top: 5px;
+            margin-left: 5px;
+            display: inline;
+        }
+
+        .top1 h4 {
+            color: rgb(218, 102, 59);
+        }
+
+        .top3 {
+            list-style: none;
+            display: inline;
+        }
+
+        .top4 {
+            text-decoration: none;
+            color: white;
+        }
+
+        .top1 span {
+            position: absolute;
+            top: 100px;
+            left: 10px;
+            margin-bottom: 10px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+
+        .top3 li {
+            display: inline-block;
+            margin-left: 50px;
+            /* padding-left: 25px; */
+        }
+
+
+        .top1 {
+            display: inline-block;
+        }
+
+        .top2 {
+            display: inline-block;
+            margin-left: 250px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+
+        .top5 {
+            display: inline-block;
+            position: relative;
+            float: right;
+            margin-top: 50px;
+            padding-right: 30px;
+        }
+
+        .top6 {
+            padding: 10px;
+            margin: 10px;
+            border: 2px solid yellow;
+            background-color: black;
+            color: white;
+            cursor: pointer;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+
+        .top5 :hover {
+            color: yellow;
+            text-decoration: underline
+        }
+
+        .top4 :hover {
+            color: yellow;
+            text-decoration: underline;
+        }
+
+        .container {
+            /* position: sticky; */
+            top: 5px;
+        }
+
+        .lock {
+            border: 2px solid yellow;
+            width: 30%;
+            border-radius: 10px;
+            padding-left: 20px;
+            margin-left: 8px;
+            color: yellow;
+            margin-top: 10px;
+            padding-right: 10px;
+        }
+
+        .lock1 {
+            text-align: center;
+            display: block;
+            padding: 2px;
+            /* border: 2px solid black; */
+            font-size: 20px;
+            margin: 3px auto;
+            /* height: 200px; */
+            width: 300px;
+        }
+
+        .lock1 input {
+            width: 250px;
+            padding: 18px;
+            border: 2px solid yellow;
+            border-radius: 30px;
+            text-align: center;
+
+        }
+
+        .man {
+            margin-bottom: 10px;
+            text-align: center;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+
+        .man :hover {
+            /* font-weight: bolder; */
+            text-decoration: underline;
+            color: red;
+        }
+
+        .heading {
+            text-align: center;
+            color: red;
+        }
+
+        .boat {
+            display: flex;
+            gap: 59px;
+        }
+
+        .boat h2 {
+            text-align: center;
+        }
+
+        .river {
+            display: flex;
+            gap: 10px;
+            margin-right: 10px;
+        }
+
+        .pond {
+            display: flex;
+            gap: 59px;
+        }
+
+        .pond h2 {
+            text-align: center;
+        }
+
+        .belt {
+            display: flex;
+            gap: 50px;
+            color: white;
+            padding-left: 70px;
+            padding-right: 70px;
+        }
+
+        .tab {
+            background-color: black;
+            color: red;
+            text-align: center;
+        }
+
+        .belt h2 {
+            color: yellow;
+        }
+
+        .white {
+            background-color: white;
+            display: flex;
+            padding-top: 30px;
+            padding-left: 50px;
+            padding-right: 50px;
+            gap: 30px;
+            text-align: center;
+        }
+
+        .pen {
+            height: 50px;
+        }
+
+        .pin {
+            border: 3px solid yellow;
+            margin: 30px;
+            border-radius: 20px;
+            padding-bottom: 20px;
+            text-align: center;
+        }
+
+        .pencil {
+            height: 50px;
+        }
+
+        .bag {
+            display: flex;
+            justify-content: space-between;
+            padding-top: 100px;
+            padding-bottom: 100px;
+            padding-left: 50px;
+            padding-right: 50px;
+            background-color: pink;
+            border: 3px solid black;
+            border-radius: 20px;
+            margin: 30px;
+        }
+
+        .water {
+            background-color: black;
+            padding-top: 50px;
+        }
+
+        .water h1 {
+            text-align: center;
+        }
+
+        .key {
+            color: yellow;
+            display: flex;
+            justify-content: space-around;
+        }
+
+        .key a {
+            text-decoration: none;
+            color: white;
+            padding: 10px;
+        }
+
+        .ten :hover {
+            font-weight: bold;
+        }
+
+
+        .apple {
+            display: flex;
+            background-color: black;
+            /* padding-bottom: 100px; */
+            padding-top: 100px;
+            justify-content: center;
+            gap: 10px;
+        }
+
+        #a {
+            background-color: black;
+            color: white;
+            margin: 0px;
+            text-align: center;
+            padding-bottom: 50px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <div>
+            <div class="top1">
+                <img src="https://www.freepngimg.com/thumb/hand/76374-fitness-logo-vector-creative-download-hd-png.png"
+                    alt="">
+                <span style="color: white;">ROHIT FITNESS</span>
+            </div>
+            <div class="top2">
+                <header>
+                    <nav>
+                        <ul class="top3">
+                            <li>
+                                <a class="top4" href=""> <b>Home</b></a>
+                            </li>
+                            <li>
+                                <a class="top4" href=""> <b>About</b></a>
+                            </li>
+                            <li>
+                                <a class="top4" href=""> <b>Service</b></a>
+                            </li>
+                            <li>
+                                <a class="top4" href=""> <b>Contact Us</b></a>
+                            </li>
+                        </ul>
+                    </nav>
+                </header>
+            </div>
+            <div class="top5">
+                <button class="top6">Call Us</button>
+                <button class="top6">Email</button>
+            </div>
+        </div> <br><br>
+        <hr>
+    </div>
+    <div class="lock">
+        <h1><u>Join the Best Gym of Delhi Now</u></h1>
+        <form action="backend.php">
+            <div class="lock1" id=king>
+                <input type="text" placeholder="Enter Your Name">
+            </div>
+            <div class="lock1">
+                <input type="number" placeholder="Enter Your Age">
+            </div>
+            <div class="lock1">
+                <input type="text" placeholder="Enter Your Gender">
+            </div>
+            <div class="lock1">
+                <input type="text" placeholder="Enter Your Locality">
+            </div>
+            <div class="lock1">
+                <input type="number" placeholder="Enter your Number">
+            </div>
+            <div class="man"><input type="submit"></div>
+        </form>
+    </div> <br>
+    <div class="heading">
+        <h1>Welcome to the Gym!</h1>
+        <h3 style="color: black;"><i>Take care of your body. It's the only place you have to live.</i></h3>
+    </div>
+    <div class="boat">
+        <div>
+            <h2><u>KICK BOXING</u></h2>
+            <img src="https://cdn.pixabay.com/photo/2018/03/23/11/57/girl-3253532_960_720.jpg" width="400px" alt="">
+        </div>
+        <div>
+            <h2><u>AEROBCS</u></h2>
+            <img src="https://th.bing.com/th/id/R.b8a40703260a733275f662f597c486ed?rik=7139Lo3Tm5Rvsw&riu=http%3a%2f%2fwww.fitnessgymyoga.com%2fwp-content%2fuploads%2f2018%2f01%2ffitness-trainers-and-aerobics-instructors-12001200agxfet-fresh-aerobics-instructors-and-fitness-trainers-job-title-overview-vault-of-fitness-trainers-and-aerobics-instructors-259882g-12001200.jpg&ehk=059ojvjGiMRUd14OgPoa828m0sQD5Comwl92ewv1zcI%3d&risl=&pid=ImgRaw&r=0"
+                width="400px" height="260px" alt="">
+        </div>
+        <div>
+            <h2><u>STRENGTH</u></h2>
+            <img src="https://cdn.pixabay.com/photo/2017/01/02/11/52/workout-1946596_960_720.jpg" width="400px"
+                height="260px" alt="">
+        </div>
+    </div>
+    <div class="river">
+        <div>
+            <img src="https://cdn.pixabay.com/photo/2016/03/27/23/00/weight-lifting-1284616_960_720.jpg" width="500px"
+                height="550px" alt="">
+        </div>
+        <div>
+            <img src="https://cdn.pixabay.com/photo/2016/05/14/03/24/girl-in-the-gym-1391368_960_720.jpg" height="552px"
+                width="800px" alt="">
+        </div>
+    </div>
+    <div class="pond">
+        <div>
+            <img src="https://images.pexels.com/photos/3838389/pexels-photo-3838389.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                width="400px" alt="">
+            <h2><u>FREE WEIGHTS</u></h2>
+        </div>
+        <div>
+            <img src="https://images.pexels.com/photos/3758151/pexels-photo-3758151.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                width="400px" height="266px" alt="">
+            <h2><u>POWER YOGA</u></h2>
+        </div>
+        <div>
+            <img src="https://images.pexels.com/photos/4090012/pexels-photo-4090012.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                width="400px" height="266px" alt="">
+            <h2><u>ZUMBA</u></h2>
+        </div>
+    </div>
+    <div class="tab">
+        <h1><u>OUR ADVANTAGES</u></h1>
+        <div class="belt">
+            <div>
+                <h2><u>Qualified trainers</u></h2>
+                <p>We're sure that one time or another, you've been fascinated at how a trainer facilitates class and
+                    engages learners. Youâ€™ve also most likely observed some of the best qualities of a good trainer
+                    and already somewhat have an idea of what attributes make a trainer great at their work.</p>
+                <br>
+                <h2><u>Multiple classis</u></h2>
+                <p>We provides multiple classes to our clints Zumba, Aerobics, Kickboxing, Strenght, Power yoga, Free
+                    weight</p>
+                <br>
+                <h2><u>Men and Women's changing rooms</u></h2>
+                <p>Maecenas mattis vitae tellus vel interdum. Quisque lacinia mauris id convallis pretium. Aliquam id
+                    odio sit amet mauris.</p>
+                <br>
+                <h2><u>Towels and Lockers</u></h2>
+                <p>Maecenas mattis vitae tellus vel interdum. Quisque lacinia mauris id convallis pretium. Aliquam id
+                    odio sit amet mauris</p>
+            </div>
+            <div>
+                <h2><u>Individual training</u></h2>
+                <p>A personal trainer is an individual certified to have a varying degree of knowledge of general
+                    fitness involved in exercise prescription and instruction. They motivate clients by setting goals
+                    and providing feedback and accountability to clients.</p>
+                <br>
+                <h2><u>Hightech gym</u></h2>
+                <p>Monitoring performance during the one-hour workout, from wearable devices to projection screens,
+                    which help in getting solidity from long slogans on cardio devices, make use of modern technology to
+                    enhance the experience of today's gym exercise</p>
+                <br>
+                <h2><u>Complimentary Drinks</u></h2>
+                <p>Maecenas mattis vitae tellus vel interdum. Quisque lacinia mauris id convallis pretium. Aliquam id
+                    odio sit amet mauris.</p>
+                <br>
+                <h2><u>Free Wi-Fi Zone</u></h2>
+                <p>Maecenas mattis vitae tellus vel interdum. Quisque lacinia mauris id convallis pretium. Aliquam id
+                    odio sit amet mauris.</p>
+            </div>
+        </div>
+
+    </div>
+    <div class="pin">
+        <h1 style="color: red;"><u>Why The Gym</u></h1>
+        <div class="white">
+            <div>
+                <img class="pen"
+                    src="https://th.bing.com/th/id/R.8a969451593fd96775c366060f58d7b2?rik=Zcv1uVeIlkiJsA&riu=http%3a%2f%2fwww.pngmart.com%2ffiles%2f7%2fSupport-PNG-Picture.png&ehk=7FCgp8QIL8%2fihpR4t7ZZKsaZ2SVvm8ncKNjYRTGzWx0%3d&risl=&pid=ImgRaw&r=0"
+                    alt="">
+                <h2>Support</h2>
+                <p>Every member gets a free, personalized Get Started Plan when they join. Our friendly, professional
+                    staff
+                    is trained to help you along your fitness journey, no matter how much support you need</p>
+                <br>
+                <img class="pen"
+                    src="https://th.bing.com/th/id/R.17a0ba299648f5e5dcc49fef8dcc31b1?rik=W2id%2blAltXQycA&riu=http%3a%2f%2fconvenientmd.com%2fwp-content%2fuploads%2f2016%2f03%2fconvenience-icon.png&ehk=tZjaU8KK0ZE%2bN9Oya2lif72fl80gO6Cc%2bRqASSJ8Ix4%3d&risl=&pid=ImgRaw&r=0"
+                    alt="">
+                <h2>Convenience</h2>
+                <p>With 24/7 access to more than 3,000 locations worldwide, you're joining the most convenient gym on
+                    the
+                    planet</p>
+            </div>
+            <hr>
+            <div>
+                <img class="pen" src="https://cdn1.iconfinder.com/data/icons/olympic-games-24/66/87-512.png" alt="">
+                <h2>Tools & Training</h2>
+                <p>Getting to a healthier place is about more than going to the gym. That's why we offer personal
+                    training and classes when you're here, and the right tools to keep you on track when you're not.</p>
+                <br>
+                <img class="pen"
+                    src="https://th.bing.com/th/id/R.ef9ca1d201f3d3f0e1573d7615ace7e7?rik=YA8LY2IVJfYl7A&riu=http%3a%2f%2fclipart-library.com%2fnewhp%2fkissclipart-community-service-clip-art-clipart-community-servi-8d48b2c4bd477aee.png&ehk=6gvnEb0rsxG%2bWdZKSkr5mmKE8NB4d4o5wOh3SKho28o%3d&risl=&pid=ImgRaw&r=0"
+                    alt="">
+                <h2>Community</h2>
+                <p>You're not just joining a gym. You're joining a supportive community of like-minded people who are
+                    here to give you the encouragement you need.</p>
+
+            </div>
+        </div>
+    </div>
+    <div class="bag">
+        <div>
+            <img class="pencil"
+                src="https://th.bing.com/th/id/R.5fbfd425c7ca238294842fbec5e8025b?rik=OJ88jTvA1K1dFA&riu=http%3a%2f%2fcdn.onlinewebfonts.com%2fsvg%2fimg_458382.png&ehk=OTYEdiy7fJCJWe4z5JdHixJJp7AkYse72%2b6HyIF8b%2fw%3d&risl=&pid=ImgRaw&r=0"
+                alt="">
+            <h2>100k</h2>
+            <h5>MEMBERS</h5>
+        </div>
+        <div>
+            <img src="https://th.bing.com/th/id/R.684394d55fdf3534bf16479dac008e80?rik=guv0Lju7saY6Rw&riu=http%3a%2f%2frosebankmortgagebrokers.co.uk%2fwp-content%2fuploads%2f2018%2f02%2fmortgage-tick-icon.png&ehk=eSSFHrWI9iQ4ptFsAmNGjShsH3pGCgg7QIfFYOj9rTE%3d&risl=&pid=ImgRaw&r=0"
+                alt="" class="pencil">
+            <h2>200+</h2>
+            <h5>TRAINERS</h5>
+        </div>
+        <div>
+            <img src="https://th.bing.com/th/id/R.9674a6a0f3475015da29e358dc2eb57a?rik=lXJ8st0oS4dWPA&riu=http%3a%2f%2fcdn.onlinewebfonts.com%2fsvg%2fimg_67261.png&ehk=Fa3mpW6wQoF1fQEaPVnWiHB4X6W13V%2bmiMwtnHI53RY%3d&risl=&pid=ImgRaw&r=0"
+                alt="" class="pencil">
+            <h2>50+</h2>
+            <h5>BRANCHES</h5>
+        </div>
+        <div>
+            <img src="https://th.bing.com/th/id/OIP.aezsFOQzJOIo8KPLo-uC4gHaLI?pid=ImgDet&rs=1" alt="" class="pencil">
+            <h2>30+</h2>
+            <h5>AWARDS</h5>
+        </div>
+    </div>
+    <div class="water">
+        <h1 style="color: red;"><u>OUR NETWORKS</u></h1>
+        <div class="key">
+            <div>
+                <h2><u>DELHI</u></h2>
+                <div class="ten">
+                    <a href="">THE GYM PITAMPURA</a> <br> <br>
+                    <a href="">THE GYM PATEL NAGAR</a> <br> <br>
+                    <a href="">THE GYM RAJOURI GARDEN</a> <br> <br>
+                    <a href="">THE GYM JANAKPURI</a> <br> <br>
+                    <a href="">THE GYM PASCHIM VIHAR</a> <br> <br>
+                    <a href="">THE GYM MODEL TOWN</a> <br> <br>
+                    <a href="">THE GYM VIKAS PURI</a> <br> <br>
+                    <a href="">THE GYM KIRTI NAGAR</a> <br> <br>
+                </div>
+            </div>
+            <div>
+                <div class="ten">
+                    <h2><u>UTTAR PRADESH</u></h2>
+                    <a href="">THE GYM NOIDA</a> <br> <br>
+                    <a href="">THE GYM FARIDABAD</a> <br> <br>
+                    <a href="">THE GYM LUCKNIW</a> <br> <br>
+                    <a href="">THE GYM AGRA</a> <br> <br>
+                    <a href="">THE GYM PRAYAGRAJ</a> <br> <br>
+                </div>
+            </div>
+            <div>
+                <div class="ten">
+                    <h2><u>HARYANA</u></h2>
+                    <a href="">THE GYM GURUGRAM</a> <br> <br>
+                    <a href="">THE GYM ROHTAK</a> <br> <br>
+                    <a href="">THE GYM KARNAL</a> <br> <br>
+                </div>
+            </div>
+            <div>
+                <div class="ten">
+                    <h2><u>PUNJAB</u></h2>
+                    <a href="">THE GYM LUDHIANA</a> <br> <br>
+                    <a href="">THE GYM CHANDIGARH</a> <br> <br>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="apple">
+        <div class="fan">
+            <a href=""><img src="https://s3.amazonaws.com/freebiesupply/large/2x/facebook-logo-circle.png" height="40px"
+                    alt=""> </a>
+        </div>
+        <div class="fan">
+            <a href=""> <img src="https://www.pngkey.com/png/full/448-4486200_instagram-circle-png.png" height="40px"
+                    alt=""></a>
+        </div>
+        <div class="fan">
+            <a href=""><img src="https://logodix.com/logo/327525.png" height="40px" alt=""></a>
+        </div>
+        <div class="fan">
+            <a href=""><img
+                    src="https://blog.carltonstaffing.com/wp-content/uploads/2020/09/linkedin-icon-logo-png-transparent-2048x2048.png"
+                    height="40px" alt=""> </a>
+        </div>
+    </div>
+    <p id="a"><u>The Gym © 2022 Tucson Fitness Pvt. Ltd.</u></p>
+
+</body>
+
+</html>
